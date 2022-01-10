@@ -1,1 +1,1 @@
-{"version":3,"file":"styles.css","mappings":"AAAA,OACC,wBACG,WAEJ,KACC,wBACG,WAEJ,OACC,wBACG,W","sources":["webpack://lektor-webpack/./scss/main.scss"],"sourcesContent":["header {\n\tbackground-color: purple;\n    color: white;\n}\nbody {\n\tbackground-color: purple;\n    color: white;\n}\nfooter {\n\tbackground-color: purple;\n    color: white;\n}"],"names":[],"sourceRoot":""}
+{"version":3,"file":"styles.css","mappings":"AAAA,KACI,a","sources":["webpack://lektor-webpack/./scss/main.scss"],"sourcesContent":["body {\n    color: purple;\n}"],"names":[],"sourceRoot":""}
