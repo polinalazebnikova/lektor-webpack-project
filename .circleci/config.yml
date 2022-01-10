@@ -16,7 +16,7 @@ jobs:
 
       - checkout
       - run: pip install -r requirements.txt
-      - run: ls
+      - run: ls webpack/
       # - run: npm install
       # - run: lektor build -f webpack && lektor deploy
 
