@@ -1,0 +1,9 @@
+[project]
+name = lektor-webpack-project
+
+[packages]
+lektor-webpack-support = 0.6.0
+
+[servers.ghdeploy]
+name=Dev
+target = ghpages+https://polinalazebnikova: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@polinalazebnikova/lektor-webpack-project/
