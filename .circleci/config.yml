@@ -1,0 +1,26 @@
+version: 2.1
+
+orbs:
+  python: circleci/python@1.2
+
+jobs:
+  build-and-test: 
+    docker:
+      - image: nikolaik/python-nodejs:python3.8-nodejs16
+
+ 
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - 47:28:1d:4c:cc:b6:41:59:2e:0f:76:15:68:9d:3b:64
+
+      - checkout
+      - run: pip install -r requirements.txt
+      - run: npm install webpack/
+      - run: lektor build -f webpack && lektor deploy
+
+
+workflows:
+  sample: 
+    jobs:
+      - build-and-test
